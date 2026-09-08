@@ -40,4 +40,5 @@ cldap request + computer account enumeration
 <img width="711" height="633" alt="image" src="https://github.com/user-attachments/assets/88eea7ec-b5fc-4a4a-8834-4b36734057de" />
 
 # credits
-for the unauth account brute forcing - https://github.com/lkarlslund/ldapnomnom 
+for the go implementation of unauth account brute forcing - https://github.com/lkarlslund/ldapnomnom 
+https://sensepost.com/blog/2018/a-new-look-at-null-sessions-and-user-enumeration/

@@ -1,3 +1,8 @@
+# Features
+- uses cldap to enumeration domain information. 
+- send rootdse queries and probe tls certs over 636. 
+- brute force users and computers in ad (unauthenticated)
+
 # Usage
 ```
 ┌──(kali㉿kali)-[~/tools/cldap]
@@ -30,6 +35,9 @@ Examples:
   ./cldap -dc 10.0.0.1 -user Administrator
   ./cldap -dc 10.0.0.1 -user names.txt -computer machines.txt -workers 20
 ```
+# Example
+cldap request + computer account enumeration
+<img width="711" height="633" alt="image" src="https://github.com/user-attachments/assets/88eea7ec-b5fc-4a4a-8834-4b36734057de" />
 
-uses cldap to enumeration domain information. can also brute force users and computers in ad
-<img width="723" height="609" alt="image" src="https://github.com/user-attachments/assets/265f74a3-c909-4bac-819a-fc3a2f4cb7a0" />
+# credits
+for the unauth account brute forcing - https://github.com/lkarlslund/ldapnomnom 
